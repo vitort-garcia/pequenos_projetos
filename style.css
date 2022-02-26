@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+:root{
+    --cor01: rgb(141, 94, 79);
+    --cor00: rgb(116, 82, 73);
+    --cor02: rgb(44, 33, 33);
+    --corLetra: #fff2e7;
+    --corLinha: #fff2e733;
+
+    --fonte-tit: 'Righteous', cursive;
+    --fonte-par: 'Sarala', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(45deg, rgb(36, 28, 28), rgb(190, 134, 115));
+    font-family: var(--fonte-par);
+    font-size: 100%;
+}
+
+header{
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header img{
+    height: 72px;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+}
+
+nav a{
+    color: var(--corLetra);
+    font-weight: 400;
+    font-size: 18px;
+    font-family: var(--fonte-par);
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    color: var(--corLetra);
+    border-top: 0.4px solid var(--corLinha);
+}
+
+main h1 h2{
+    font-family: var(--fonte-tit);
+    font-weight: 400;
+}
+
+.sectionprincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sectionprincipal button{
+    background-color: var(--corLetra);
+    color: var(--cor02);
+    font-weight: bolder;
+    border-radius: 14px;
+    border: none;
+    padding: 10px;
+    font-family: 'Sarala';
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+}
+
+.sectionprincipal button:hover{
+    background-color: var(--cor00);
+    color: var(--cor02);
+}
+
+.sectionprincipal img{
+    max-height: 430px;
+}
+
+div h1{
+    font-size: 2.2em;
+}
+
+div p{
+    padding: 20px 0px;
+}
+
+.sectionsecundaria{
+    line-height: 2.8em;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    text-align: center;
+}
+
+section h2{
+    border-top: 0.4px solid var(--corLinha);
+}
+    
+
+footer{
+    border-top: 0.4px solid var(--corLinha);
+    padding: 20px;
+}
+
+footer img{
+    display: block;
+    margin: auto;
+}
