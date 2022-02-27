@@ -61,11 +61,6 @@ main{
     border-top: 0.4px solid var(--corLinha);
 }
 
-main h1 h2{
-    font-family: var(--fonte-tit);
-    font-weight: 400;
-}
-
 .sectionprincipal{
     display: flex;
     flex-direction: row;
@@ -95,6 +90,8 @@ main h1 h2{
 
 div h1{
     font-size: 2.2em;
+    font-family: var(--fonte-tit);
+    font-weight: 400;
 }
 
 div p{
@@ -112,6 +109,9 @@ div p{
 
 section h2{
     border-top: 0.4px solid var(--corLinha);
+    padding-top: 20px;
+    font-family: var(--fonte-tit);
+    font-weight: 400;
 }
     
 
@@ -122,5 +122,6 @@ footer{
 
 footer img{
     display: block;
-    margin: auto;
+    margin: 0 auto;
+    max-height: 48px;
 }
