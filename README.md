@@ -1,2 +1,2 @@
 # landing_page
- C:\Users\Admin\Desktop\Jornada da Programação\Rafa Ballerini Projetos
+Até agora só o projeto Landing Page do 'Balle Bot', da Rafaela Ballerini.
